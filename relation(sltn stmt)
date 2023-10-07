@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+  using namespace std;
+  
+  int main()
+  {
+    int x,y;
+    cin>>x>>y;
+    if(x>y){
+        cout<< x <<"is Greater";
+    }
+    else if(x<y){
+        cout<< y <<"is Greater";
+    }
+    else{
+        cout<< x<< "equal"<< y;
+    }
+    return 0;
+  }
