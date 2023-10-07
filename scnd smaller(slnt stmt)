@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+  using namespace std;
+  
+  int main()
+  {
+    int x,y,z;
+    cin>>x>>y>>z;
+    if(x>y && x<z)
+    cout<<"x is second smallest";
+    else if(y>x && y<z)
+    cout<<"y is second smallest";
+    else
+    cout<<"z is second smallest";
+    
+    return 0;
+  }
