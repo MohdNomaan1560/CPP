@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+  using namespace std;
+  
+  int main()
+  {
+    //t is testcases and p is no.of pairs
+    int t,p;
+    cin>>t;
+    while(t--){
+      cin>>p;
+      cout<<p+1<<endl;
+    }
+    return 0;
+  }
