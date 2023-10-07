@@ -1,0 +1,22 @@
+#include <iostream>
+  using namespace std;
+  
+  int main()
+  {
+    int t;
+    cin>>t;
+    while(t--){
+      int h,m,a;
+      cin>>h>>m;
+    h=(h*30)+(m*0.5);
+    m=m*6;
+    a=abs(h-m);
+    if(a>180)
+    {cout<<360-a<<endl;}
+    else
+    cout<<a<<endl;
+      //t--;
+    }
+    
+    return 0;
+  }
