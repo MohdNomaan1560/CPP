@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    // Write C++ code here
+    int t;
+    cin>>t;
+    while(t--){
+        int m,n,d;
+        cin>>m>>n;
+        d=m*n;
+        cout<<d;
+    }
+
+    return 0;
+}
